@@ -21,7 +21,5 @@ BoardMapper.java - BoardVO,java의 데이터를 읽어들임
 BoardMapper.xml - CRUD 실행
 
 파라미터 값들을 잘 모르겠음...
-addFlashAttribute
-attr
-rttr
-addAttribute
+addFlashAttribute(key,value)
+addAttribute(key,value)
