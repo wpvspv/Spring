@@ -1,0 +1,33 @@
+p88~p137까지 완료
+mybatis와 스프링을 연동한 후 스프링 MVC의 기본구조를 익히면서 실습함
+
+
+오류 : Cannot find DTD 'file:///C:/Users/ibank/eclipse-workspace/ex00/src/main/resources/
+ log4j.dtd'.
+Create the DTD file or configure an XML catalog for this DTD.
+
+해결 : log4.xml 파일의 상단 DTD 선언문을 아래 소스코드의 2라인과 같이 수정
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+
+
+오류 : Unable to find Log4j2 as default logging library. Please provide a logging library and configure a valid spyLogDelegator name in the properties file.
+
+해결 : a00\src\main\resources에 log4jdbc.log4j2.properties추가
+#log4jdbc.log4j2.properties내용 
+log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+
+
+
+오류 : @Setter(onMethod_=@AutoWired)에러
+
+해결 : User/.m2/reposiory 삭제후 이클립스 실행후 Maven->Update project
+
+
+
+오류 : @log4j 에러
+
+해결 : @log4j를 @Slf4j로 수정
+또는 pom.xml에서 log4j 관련된 부분 하단에 <scope>runtime</scope> 부분 삭제

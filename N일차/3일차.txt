@@ -1,0 +1,12 @@
+p18~p87까지 완료
+교재를 따라가며 스프링 프레임워크 개발환경을 구축하고 오라클 데이터베이스와 연동함
+스프링 프레임워크에 대한 공부함
+
+
+https://github.com/spring-projects/toolsuite-distribution/wiki/Spring-Tool-Suite-3
+
+log4j문제  해결해야됨
+
+코드로 배우는 스프링 웹 프로젝트 교재
+part1거의 끝까지 설정
+spring framework설정

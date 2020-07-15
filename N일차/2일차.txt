@@ -1,0 +1,10 @@
+이클립스에서  스프링 프레임워크 설치하고 환경설정함
+
+https://freestrokes.tistory.com/78
+https://offbyone.tistory.com/391
+https://antdev.tistory.com/27
+https://addio3305.tistory.com/category/Spring?page=3
+
+spring 설치
+eclipse에 spring설치
+DB연동 실패

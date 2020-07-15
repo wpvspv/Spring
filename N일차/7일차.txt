@@ -1,0 +1,27 @@
+p282~324
+페이징이론 및 페이징 화면처리
+
+
+인라인뷰 - select 안의 select
+rownum - 오라클db에서 사용하는 pk
+
+submit - 서버로 폼의 내용을 전송함
+
+BoardController.java - /board경로에서 register, list, get, modify, remove 파라미터, 메소드, 리턴하는 코드가 작성되있음
+
+servlet-context.xml - WEB-INF/views폴더를 이용한다는 코드가 작성되있음
+
+get.jsp - 조회페이지
+list.jsp - 전체리스트 페이지
+register.jsp - 등록 페이지
+modify.jsp -수정/삭제 페이지
+
+BoardSeviceImpl.java - CRUD함수로 보냄
+BoardMapper.java - BoardVO,java의 데이터를 읽어들임
+BoardMapper.xml - CRUD 실행
+
+파라미터 값들을 잘 모르겠음...
+addFlashAttribute
+attr
+rttr
+addAttribute

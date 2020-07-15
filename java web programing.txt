@@ -1,0 +1,47 @@
+#install eclipse ide for enterprise java developers and jdk(SE)
+https://www.eclipse.org/downloads/
+https://www.oracle.com/java/technologies/javase-downloads.html
+
+#how to use JWP
+@step1
+http://blog.naver.com/PostView.nhn?blogId=kiminhovator&logNo=220621165265
+Window - Perspective - Open Perspective - Other-Java EE
+
+@step2 : install tomcat
+http://tomcat.apache.org/
+
+@step3 : Link server&eclipse
+Servers-No servers are available. Click this link to create a new server...
+Choose Tomcat v9.0 Server
+
+@step4 : running JWP
+File - New - Dynamic Web Project-Project name-context root
+ex) protocol://서버의 IP주소:포트 번호/Context root/파일...
+Servers-Add and Remove...-Add-finish
+
+@step5 : set web browser
+Window-Preferences-General-Web Browser-Use external web browser-Chrome
+
+@step6 : html사용
+프로젝트이름 오른쪽 클릭-new-html file
+html코드 넣고 실행
+
+@step7 : servlet사용
+프로젝트이름-Java Resources-src오른쪽 클릭
+
+#servet->JSP로 변경
+http://blog.naver.com/PostView.nhn?blogId=ecjjmrikqo&logNo=40195995250&parentCategoryNo=&categoryNo=61&viewDate=&isShowPopularPosts=true&from=search
+프로젝트이름-WebContent오른쪽 클릭-new-JSP File
+
+
+
+
+
+
+
+
+
+
+
+
+
