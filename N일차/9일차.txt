@@ -1,0 +1,31 @@
+교재 p351~413까지 완료
+지금까지 사용한 것들을 REST(Representational State Transfer)방식으로 전환하고, Ajax로 댓글을 만들고, 등록하고, 조회하고, 수정/삭제하게 구현해 크롬의 개발자 도구를 이용해서 문제없이 동작하는지 확인함 
+
+List - 데이터 저장속도 빠름/포지션별로 의미가 있을 때 사용/데이터를 삽입,삭제가 빈번할때, 비효율적인 경우가 있음/특정 데이터가 아닌 원하는 데이터 범위를 순차적으로 표현할때 유리한 자료구조
+Map - List보다는 데이터 저장속도가 느릴 수 있음/쌍을이루는 Key와 Value값을 이용함/key값을 통해서 빠르게 데이터를 검색/은빈번한 검색과, 범위데이터가 아닌 특정 데이터를 순간마다 캐치해야할 때 유리한 자료구조
+
+MockMvc - 실제 객체와 비슷하지만 테스트에 필요한 기능만 가지는 가짜 객체를 만들어서 애플리케이션 서버에 배포하지 않고도 스프링 MVC 동작을 재현할 수 있는 클래스를 의미
+MockMvc.perform - 요청을 전송하는 역할, 결과로 ResultActions 객체를 받으며, ResultActions 객체는 리턴 값을 검증하고 확인할 수 있는 andExcpect() 메소드를 제공
+
+@RestController - Controller가 REST방식을 처리하기 위한 것을 명시
+@ResponseBody - 일반적인 JSP와 같은 뷰로 전달되는 것이 아니라 데이터 자체를 전달하기 위한 용도
+@PathVariable -  URL 경로에 있는 값을 파라미터로 추출해 사용하려고 할 때 이용
+@CrossOrigin - Ajax의 크로스 도메인 문제를 해결해줌
+@RequestBody - JSON데이터를 원하는 타입의 객체로 변환해야하는 경우에 사용(바인딩처리)
+
+JSON(JavaScript Object Notation) - 구조가 있는 데이터를 {}로 묶고 키와 값으로 구성하는 경량의 데이터포맷
+
+
+Q.
+MediaType.TEXT_PLAIN_VALUE
+MediaType.APPLICATION_JSON_UTF8_VALUE
+MediaType.APPLICATION_XML_VALUE		
+
+
+
+
+
+
+
+
+

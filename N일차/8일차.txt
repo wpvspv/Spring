@@ -1,6 +1,5 @@
-p325~350
-검색처리
-mybatis의 동적sql을 이용해 DB의 데이터에서 제목/내용/작성자 검색하고 웹페이지에 보여준다
+교재 p325~350까지 완료
+mybatis의 동적sql을 이용해 DB의 데이터에서 제목/내용/작성자 검색하고 웹페이지에 보여주는 검색처리를 구현함
 
 EL (Expression Language) - ${변수} ${param.abc}
 [ attribute : 메소드를 통해 저장되고 관리되는 데이터 ]
@@ -8,7 +7,6 @@ PageContext / Request에서 사용될때
 setAttribute("key", value) → 값을 넣는다.
 getAttribute("key") → 값을 가져온다.
 removeAttribue("key") → 값을 지운다.
-
 
 
 JSTL (Jsp Standard Tag Library) - c를 이용/if문, for문, DB를 편하게 처리할 수 있는것

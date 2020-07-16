@@ -1,4 +1,5 @@
-이클립스에서  스프링 프레임워크 설치하고 환경설정함
+eclipse에서 jSP환경 구축을 시도했지만 데이터베이스와의 연동을 실패함
+“코드로 배우는 스프링 웹 프로젝트” 교재를 구매해 공부해 나갈 예정  
 
 https://freestrokes.tistory.com/78
 https://offbyone.tistory.com/391

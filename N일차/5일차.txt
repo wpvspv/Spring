@@ -1,7 +1,5 @@
-p138~p222
-영속/비지니스/화면 티어들의 이론들과 사용하는 방법을 배우고 mybatis와 연동해 CRUD를 테스트하였다
-
-lombok : 어노테이션을 가능하게 해주는 라이브러리
+교재 p138~p222까지 완료
+영속/비지니스/화면 티어들의 이론들과 사용하는 방법을 배우고 mybatis와 연동해 CRUD를 테스트함
 
 controller
 
@@ -17,4 +15,4 @@ rootcontext->filter->sevletcontext
 영속계층(CRUD를 연산을 수행하는 계층)의 정의 - 데이터를 어떤 방식으로 보관하고, 사용하는가에 대한 설계가 들어있는 계층 ex) VO/DTO
 
 Q.
-p197 : board.setBno(5L)에서 L이 무슨 뜻인가
+p197 : board.setBno(5L)에서 L이 무슨 뜻인가 - 자바에서 Long type은 숫자 뒤에 L을 붙여줘야함, float type에 f를 붙이듯이
