@@ -1,0 +1,18 @@
+교재 p413~p486까지 완료
+개발자 도구로 동작시켰던 댓글처리를 웹페이지에 반영하도록 만들고, 페이징 처리함
+스프링의 장점인 AOP(Aspect-Oriented Programming)의 이론을 익히고 테스트하여 흐름을 이해함
+트랜잭션의 이론을 익히고 테스트하여 흐름을 이해한 후에 댓글 수를 처리하는 예제를 다루며 활용함
+댓글 수에 대한 처리(수가 안떴었는데 commit을 안해서 그랬던 거였음)
+
+#담주에 흐름 이해할것
+#댓글 등록이 안되는 문제가 생김
+
+AOP(Aspect-Oriented Programming)
+Target - 개발자가 작성한 핵심 비즈니스 로직(코어)
+Proxy - Target을 전체적으로 감싸고 있는 것, Target을 호출함
+JoinPoint - Target객체가 가진 메서드(Target안에 여러개가 있음)
+Pointcut - 관심사와 비즈니스 로직이 결합되는 지점
+Aspect - 관심사 자체를 의미하는 추상명사
+Advice - Aspect를 구현한 코드
+
+@Transactional우선순위 - 메서드>클래스>인터페이스

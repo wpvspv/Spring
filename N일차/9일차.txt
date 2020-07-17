@@ -15,6 +15,7 @@ MockMvc.perform - 요청을 전송하는 역할, 결과로 ResultActions 객체를 받으며, Resu
 
 JSON(JavaScript Object Notation) - 구조가 있는 데이터를 {}로 묶고 키와 값으로 구성하는 경량의 데이터포맷
 
+MIME(Multipart Internet Mail Extensions) - MediaType과 연관되있음
 
 Q.
 MediaType.TEXT_PLAIN_VALUE
