@@ -1,0 +1,15 @@
+보고서 작성
+어제에 이어서 생활코딩으로 자바스크립트 학습하고 리스트를 출력하는 웹페이지를 만듬
+생활코딩으로 Ajax를 학습하고 Ajax를 이용해 리스트를 출력하는 웹페이지를 구축함
+
+문제점
+         등록 삭제 수정
+게시 -  됨   안됨   안됨
+리플 - 애매 안됨 안됨
+첨부 - 안됨 안됨 안됨
+
+
+
+포트폴리오
+https://yeop-blog.github.io/2017/08/11/2017-08-11-developer_portfolio_list/
+https://www.slideshare.net/hyeonjaeCheon/jaeya-board-ver2-70657537
