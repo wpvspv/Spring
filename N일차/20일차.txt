@@ -1,2 +1,3 @@
-ajax 생활코딩
-fetch api polyfill
+ajax 생활코딩 완료
+데이터베이스 git연동
+
